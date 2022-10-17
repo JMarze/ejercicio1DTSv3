@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testClean.ItemsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-16T23:59:12" hostname="JARZELT41" time="7.787">
+  <properties/>
+  <testcase name="verifyCRUDItems()" classname="testClean.ItemsTest" time="7.787"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://todo.ly/api/items.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YXJ6ZS5qZXN1c0BnbWFpbC5jb206ajNzdXM0cnoz
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Content":"Nuevo Item"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=duqxmw4mgy0k2e3qt2hpdhjf; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 16 Oct 2022 23:59:05 GMT
+Content-Length: 531
+
+{
+    "Id": 11067709,
+    "Content": "Nuevo Item",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1665964745748)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1665964745733)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1665964745733)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705957
+}
+Request method:	GET
+Request URI:	https://todo.ly/api/items/11067709.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YXJ6ZS5qZXN1c0BnbWFpbC5jb206ajNzdXM0cnoz
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=qw3ooic4yrzq01wxrnycuijc; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 16 Oct 2022 23:59:07 GMT
+Content-Length: 531
+
+{
+    "Id": 11067709,
+    "Content": "Nuevo Item",
+    "ItemType": 1,
+    "Checked": false,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1665964747932)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1665964745733)/",
+    "LastCheckedDate": null,
+    "LastUpdatedDate": "/Date(1665964745733)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": false,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705957
+}
+Request method:	PUT
+Request URI:	https://todo.ly/api/items/11067709.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YXJ6ZS5qZXN1c0BnbWFpbC5jb206ajNzdXM0cnoz
+				Accept=*/*
+				Content-Type=text/plain; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{"Checked":"true","Content":"Item Modificado"}
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=nvro4ov43g1jqty3b45yxdky; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 16 Oct 2022 23:59:09 GMT
+Content-Length: 555
+
+{
+    "Id": 11067709,
+    "Content": "Item Modificado",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1665964749071)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1665964745733)/",
+    "LastCheckedDate": "/Date(1665964749057)/",
+    "LastUpdatedDate": "/Date(1665964749057)/",
+    "Deleted": false,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705957
+}
+Request method:	DELETE
+Request URI:	https://todo.ly/api/items/11067709.json
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YXJ6ZS5qZXN1c0BnbWFpbC5jb206ajNzdXM0cnoz
+				Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+Set-Cookie: ASP.NET_SessionId=lt2dbs11nm54s40eofpfw0qb; path=/; HttpOnly; SameSite=Lax
+X-AspNetMvc-Version: 2.0
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 16 Oct 2022 23:59:10 GMT
+Content-Length: 554
+
+{
+    "Id": 11067709,
+    "Content": "Item Modificado",
+    "ItemType": 1,
+    "Checked": true,
+    "ProjectId": null,
+    "ParentId": null,
+    "Path": "",
+    "Collapsed": false,
+    "DateString": null,
+    "DateStringPriority": 0,
+    "DueDate": "",
+    "Recurrence": null,
+    "ItemOrder": null,
+    "Priority": 4,
+    "LastSyncedDateTime": "/Date(1665964750287)/",
+    "Children": [
+        
+    ],
+    "DueDateTime": null,
+    "CreatedDate": "/Date(1665964745733)/",
+    "LastCheckedDate": "/Date(1665964749057)/",
+    "LastUpdatedDate": "/Date(1665964750257)/",
+    "Deleted": true,
+    "Notes": "",
+    "InHistory": true,
+    "SyncClientCreationId": null,
+    "DueTimeSpecified": true,
+    "OwnerId": 705957
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
